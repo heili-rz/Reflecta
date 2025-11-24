@@ -266,28 +266,51 @@ footer {
 </style>
 
 
-    <header>
-        <div class="container" role="banner">
-            <div class="branding">
-                <div>
-                    <h1>Reflecta Toolkit</h1>
-                    <div style="color:var(--muted);font-size:0.9rem">Practical, anonymous tools to reflect and cope</div>
+   <header>
+    <style>
+        .nav-list {
+            display: flex;
+            gap: 1rem; /* space between items */
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-list li a {
+            white-space: nowrap; /* keeps each item on one line */
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+
+    <div class="container" role="banner">
+        <div class="branding">
+            <div>
+                <h1>Reflecta Toolkit</h1>
+                <div style="color:var(--muted);font-size:0.9rem">
+                    Practical, anonymous tools to reflect and cope
                 </div>
             </div>
-
-            <nav aria-label="Main menu">
-                <ul class="nav-list">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#toolkit">Toolkit</a></li>
-                    <li><a href="#test">Wellness check</a></li>
-                    <li><a href="#forum">Open forum</a></li>
-                    <li><a href="#mood">Mood picker</a></li>
-                    <li><a href="#What is SDG 3?">What is SDG 3?</a></li>
-                    <li><a href="#resources">Resources</a></li>
-                </ul>
-            </nav>
         </div>
-    </header>
+
+        <nav aria-label="Main menu">
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#toolkit">Toolkit</a></li>
+                <li><a href="#test">Wellness check</a></li>
+                <li><a href="#forum">Open forum</a></li>
+                <li><a href="#mood">Mood picker</a></li>
+                <li><a href="#What is SDG 3?">What is SDG 3?</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
 
     <main class="container" role="main">
         <section id="about" style="margin-top:18px">
