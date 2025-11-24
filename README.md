@@ -34,6 +34,7 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       
+      <h1><a href="https://heili-rz.github.io/reflectav2/">Reflecta</a></h1>
       
 
       
@@ -266,51 +267,49 @@ footer {
 </style>
 
 
-   <header>
-    <style>
-        .nav-list {
-            display: flex;
-            gap: 1rem; /* space between items */
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .nav-list li a {
-            white-space: nowrap; /* keeps each item on one line */
-        }
-
-        header .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-    </style>
-
-    <div class="container" role="banner">
-        <div class="branding">
-            <div>
-                <h1>Reflecta Toolkit</h1>
-                <div style="color:var(--muted);font-size:0.9rem">
-                    Practical, anonymous tools to reflect and cope
+    <header>
+        <div class="container" role="banner">
+            <div class="branding">
+                <div>
+                    <h1>Reflecta Toolkit</h1>
+                    <div style="color:var(--muted);font-size:0.9rem">Practical, anonymous tools to reflect and cope</div>
                 </div>
             </div>
+
+           <nav aria-label="Main menu">
+    <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#toolkit">Toolkit</a></li>
+        <li><a href="#test">Wellness check</a></li>
+        <li><a href="#forum">Open forum</a></li>
+        <li><a href="#mood">Mood picker</a></li>
+        <li><a href="#What is SDG 3?">What is SDG 3?</a></li>
+        <li><a href="#resources">Resources</a></li>
+    </ul>
+</nav>
+
+<style>
+    nav {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        white-space: nowrap;
+    }
+</style>
         </div>
-
-        <nav aria-label="Main menu">
-            <ul class="nav-list">
-                <li><a href="#about">About</a></li>
-                <li><a href="#toolkit">Toolkit</a></li>
-                <li><a href="#test">Wellness check</a></li>
-                <li><a href="#forum">Open forum</a></li>
-                <li><a href="#mood">Mood picker</a></li>
-                <li><a href="#What is SDG 3?">What is SDG 3?</a></li>
-                <li><a href="#resources">Resources</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
+    </header>
 
     <main class="container" role="main">
         <section id="about" style="margin-top:18px">
