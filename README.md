@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-
+<title>reflecta</title>
 <meta name="generator" content="Jekyll v3.10.0">
 <meta property="og:title" content="reflecta">
 <meta property="og:locale" content="en_US">
@@ -34,7 +34,6 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       
-      <h1><a href="https://heili-rz.github.io/reflectav2/">Reflecta</a></h1>
       
 
       
