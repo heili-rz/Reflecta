@@ -34,7 +34,7 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       
-      <h1><a href="https://heili-rz.github.io/reflectav2/">Reflecta</a></h1>
+     
       
 
       
@@ -276,7 +276,7 @@ footer {
                 </div>
             </div>
 
-           <nav aria-label="Main menu">
+          <nav aria-label="Main menu">
     <ul class="nav-list">
         <li><a href="#about">About</a></li>
         <li><a href="#toolkit">Toolkit</a></li>
@@ -290,14 +290,14 @@ footer {
 
 <style>
     nav {
-        overflow-x: auto;
         white-space: nowrap;
+        width: 100%;
     }
 
     .nav-list {
         display: flex;
         flex-wrap: nowrap;
-        gap: 20px;
+        justify-content: space-between; /* spreads them evenly */
         list-style: none;
         padding: 0;
         margin: 0;
@@ -306,8 +306,10 @@ footer {
     .nav-list li a {
         text-decoration: none;
         white-space: nowrap;
+        font-size: 0.95rem; /* slightly smaller so all fit */
     }
 </style>
+
         </div>
     </header>
 
